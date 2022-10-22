@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        background: white;
+        position: relative;
+        animation: myfirst 5s infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes myfirst {
+        50% {
+          background: rgb(231, 230, 230);
+          left: 0px;
+          top: 0px;
+        }
+        100% {
+          background: rgb(231, 230, 230);
+          left: 378px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <reader>
+      <h1>Crypto ativos</h1>
+      <h2>Ativos em Baixa</h2>
+      <div style="div">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure
+        quibusdam fugit laborum inventore ex rerum, incidunt, asperiores fuga
+        necessitatibus facilis tempore expedita? Voluptatum qui pariatur impedit
+        recusandae repellendus nihil.
+      </div>
+
+      <h2>Ativos em alta</h2>
+
+      <div style="div2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore delectus
+        sunt dolorum deleniti quaerat eos voluptate repellendus quam molestiae
+        ex animi amet exercitationem quisquam qui, <br />
+        molestias earum veritatis nostrum praesentium!
+      </div>
+    </reader>
+  </body>
+</html>

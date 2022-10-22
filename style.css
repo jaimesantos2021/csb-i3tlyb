@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+body {
+}
+
+.title {
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: left;
+  padding: 10px;
+}
+
+.reader {
+}
+
+div {
+  text-align: auto;
+  border: outset rgba(0, 0, 0, 0.11);
+  border: 1px 3px 5px;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: Cambria;
+  width: 350px;
+  height: 200px;
+  margin-left: 10px;
+  box-shadow: 10px 10px 10px rgb(219, 219, 219);
+}
